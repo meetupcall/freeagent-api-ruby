@@ -6,7 +6,7 @@ module FreeAgent
 
     attr_accessor :contact, :reference, :currency, :status, :omit_header, :payment_terms_in_days, :ec_status, :place_of_supply, :invoice_items
 
-    attr_accessor :project, :discount_percent, :written_off_date
+    attr_accessor :project, :discount_percent, :written_off_date, :payment_methods, :payment_url
 
     decimal_accessor :exchange_rate, :net_value, :sales_tax_value
 
